@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fmproj" version="4">
+  <OBJECT>
+    <ID name="fmproj" mc="Standard.Package" uid="0bb34c8c-a5de-4d88-a9cb-0d4a44569ae1"/>
+    <PID name="FMProj" mc="Standard.Project" uid="46010ae8-bf6b-4e22-8bda-62188116b4ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fmproj]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MinimumSNP" mc="Standard.Class" uid="84258818-b729-4788-b1bc-ab003bb8e604"/>
+        <COMPID name="Input" mc="Standard.Class" uid="5ed25b8a-1d3c-4e04-bb2a-ec5dceafc55c"/>
+        <COMPID name="Genotype" mc="Standard.Class" uid="ddbd1b03-f144-4bbd-9fcc-249db6690c80"/>
+        <COMPID name="Result" mc="Standard.Class" uid="bd1877f4-6fda-40f7-9239-6cfc89b87ab3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="fmproj Class diagram" mc="Standard.ClassDiagram" uid="c81a3ec1-84de-4d95-9bb2-1fc2e8d07c9f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

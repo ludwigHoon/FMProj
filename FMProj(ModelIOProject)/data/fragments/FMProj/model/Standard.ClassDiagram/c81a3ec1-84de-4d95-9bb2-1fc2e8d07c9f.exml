@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fmproj Class diagram" version="4">
+  <OBJECT>
+    <ID name="fmproj Class diagram" mc="Standard.ClassDiagram" uid="c81a3ec1-84de-4d95-9bb2-1fc2e8d07c9f"/>
+    <PID name="fmproj" mc="Standard.Package" uid="0bb34c8c-a5de-4d88-a9cb-0d4a44569ae1"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">490</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[fmproj Class diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="MinimumSNP" mc="Standard.Class" uid="84258818-b729-4788-b1bc-ab003bb8e604"/>
+        <ID name="Input" mc="Standard.Class" uid="5ed25b8a-1d3c-4e04-bb2a-ec5dceafc55c"/>
+        <REFOBJ>
+          <ID name="fileLocation" mc="Standard.Attribute" uid="08d2a273-b2fe-473a-a0c8-516d2574ef99"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Genotypes" mc="Standard.Attribute" uid="b70e3224-5ca4-4517-a694-2c1c81fa778b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="excludedGenotypes" mc="Standard.Attribute" uid="abdfd2e7-2a2e-4d0d-8c77-882318c9f17d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Input" mc="Standard.Operation" uid="9d072793-8810-42e6-a9a2-8f80526088fd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="checkFile" mc="Standard.Operation" uid="7f063192-257a-4fe3-a30b-ebff370a1a2f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="setExcluded" mc="Standard.Operation" uid="28010d75-7731-49b8-984d-d5618a8c1581"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="changeFile" mc="Standard.Operation" uid="9315e359-f101-49ee-b2ea-50856f390286"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="addGenotypes" mc="Standard.Operation" uid="897ee7d2-b68e-49af-9ea0-2d5dc4bdfb55"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getGenotypes" mc="Standard.Operation" uid="3944c996-1b34-49ba-b428-929ae5f0808f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="removeGenotypes" mc="Standard.Operation" uid="154f4525-a3e7-4e5f-ab77-574481e690e2"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="minimumSNP" mc="Standard.AssociationEnd" uid="2312336f-261f-414f-befb-05ebc4e4e27b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="d34f22c7-84c0-43eb-8d33-63c0c750fa83"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Results" mc="Standard.Attribute" uid="fb410bf1-0908-41fd-b078-2649a57e9c2d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="inputFile" mc="Standard.Attribute" uid="e94aa68c-5c22-400a-8e53-dd81be984f7c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="includedPositions" mc="Standard.Attribute" uid="39cdaf13-273f-4b54-8be3-0796a3970744"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="excludedPositions" mc="Standard.Attribute" uid="3e6f1bda-0b4e-4e79-bb58-01ba76f27abb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="result" mc="Standard.AssociationEnd" uid="58e51d57-ada7-49ec-bc95-693a298190ae"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="7c53ee26-4a70-4468-a8bf-579d26f48233"/>
+        </REFOBJ>
+        <ID name="Genotype" mc="Standard.Class" uid="ddbd1b03-f144-4bbd-9fcc-249db6690c80"/>
+        <REFOBJ>
+          <ID name="data" mc="Standard.Attribute" uid="8a1b0a8f-d7b7-4ebd-b056-018295bc0ea4"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="typeName" mc="Standard.Attribute" uid="a977e3cb-f8f0-4a7f-822b-0b98269c6b73"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getAllele" mc="Standard.Operation" uid="5a7b2372-dbba-49c1-b1b2-27d631a5b9f6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Genotype" mc="Standard.Operation" uid="e5510ba9-d415-4a5b-8ade-c48bf6f970bb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="genotype" mc="Standard.AssociationEnd" uid="257c8977-ba0a-4eea-b07d-f35c6fe5a443"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="e95fc562-e519-429b-b826-498138464e1d"/>
+        </REFOBJ>
+        <ID name="Result" mc="Standard.Class" uid="bd1877f4-6fda-40f7-9239-6cfc89b87ab3"/>
+        <REFOBJ>
+          <ID name="Result" mc="Standard.Operation" uid="2f87913f-65a2-43cc-ab29-4a86c7466032"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="addnArgs" mc="Standard.Attribute" uid="73104f26-e6ea-4394-adc3-4527dcbf13bd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="result" mc="Standard.Attribute" uid="ff3fa9d2-3677-4c63-8e81-b3676c435b3d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="resultType" mc="Standard.Attribute" uid="97da796f-c769-4693-a1b8-315498930517"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="includedPositions" mc="Standard.Attribute" uid="78a8dc7d-ac05-43a1-82c6-c5e8738889ef"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="includedGenes" mc="Standard.Attribute" uid="8095d724-1d26-4499-8302-4b99e0e259d7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getResultType" mc="Standard.Operation" uid="ab259db9-fe3c-4b29-9cdb-179324dc24bd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getResult" mc="Standard.Operation" uid="be70f73d-c706-4dd3-ac34-43223ff7997b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getIncludedGenes" mc="Standard.Operation" uid="9d92ef42-3b03-4f64-916e-ca82113c8b95"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getIncludedPositions" mc="Standard.Operation" uid="21ce9287-6fbe-461e-888f-a9282f4db6fa"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="getAddnArgs" mc="Standard.Operation" uid="0d9c6af6-5655-4591-8217-9b4e688898c6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="MinimumSNP" mc="Standard.Operation" uid="cf61cf37-72e1-4758-814a-113cd444f830"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="importFile" mc="Standard.Operation" uid="34fab2df-1075-452a-ba07-e8547dcb6d6e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="percentMode" mc="Standard.Operation" uid="2b79bb3a-291f-4ed9-9233-d031be611bfd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="diversityMode" mc="Standard.Operation" uid="ccd7e045-7bfa-4b62-91fa-09369f179259"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="composeAlleles" mc="Standard.Operation" uid="093e63bd-e3f1-4be2-aacb-1f623b882630"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="152cee1a-2ea5-4fa0-8fc5-6faa94060b7b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

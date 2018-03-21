@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FMProj" version="4">
+  <OBJECT>
+    <ID name="FMProj" mc="Standard.Project" uid="46010ae8-bf6b-4e22-8bda-62188116b4ae"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[FMProj]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="fmproj" mc="Standard.Package" uid="0bb34c8c-a5de-4d88-a9cb-0d4a44569ae1"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="FMProj" mc="Infrastructure.DiagramSet" uid="5e34b463-cafc-41a3-9727-3fa5b1c7c84a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
