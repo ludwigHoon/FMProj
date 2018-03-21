@@ -1,0 +1,16 @@
+class Genotype
+instance variables
+  data:seq of (char);
+  typeName:seq of (char);
+
+operations
+  public  Genotype : seq of (char) * seq of (char) ==> Genotype
+  Genotype(data, typeName) ==
+    is not yet specified;
+
+  public  getAllele : int ==> ?
+  getAllele(position) ==
+    is not yet specified;
+
+
+end Genotype
