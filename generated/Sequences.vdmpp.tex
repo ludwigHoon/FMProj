@@ -1,0 +1,85 @@
+\kClass $Sequences$
+\par
+\kTypes
+\type{\kw{public}\hspace{0.5em}string}{\seqof*{\Char };}
+\type{\kw{public}\hspace{0.5em}gene}{string;}
+\type{\kw{public}\hspace{0.5em}typeName}{string}
+\kInstanceVarDef
+\parlinebr
+\begin{insvar}\kw{public}
+\assdef{genes}{\mapof{typeName\Gmap gene}}[{\Emptymap }]
+\end{insvar}
+\begin{insvar}\kw{public}
+\assdef{excludedGenes}{\setof{typeName}}[{\set{}}]
+\end{insvar}
+\par
+\kOperations
+\kw{\kw{public}}\begin{op}[e]{Sequences}%
+\signature{\mapof{typeName\Gmap gene} \Oto Sequences}
+\parms{input}
+\annlab[o]{Sequences`Sequences}
+\ass{genes}{input};
+\end{op}
+\kw{\kw{public}}\begin{op}[e]{processInput}%
+\signature{() \Oto ()}
+\parms{}
+\annlab[o]{Sequences`processInput}
+\begin{blockstmt}
+\begin{dclstmt}
+\assdef{lenMap}{\mapof{\Nat \Gmap \setof{typeName}}}[{\Emptymap }]
+\end{dclstmt}
+\begin{setfor}{a}{ \Dom genes}
+\If \pex{ \Not \pex{\fnapply{calcLen}{\fnapply{genes}{a}} \In  \Dom lenMap}}
+\Then \\
+\ass{lenMap\pex{\fnapply{calcLen}{\fnapply{genes}{a}}}}{\set{a}}
+\Else \\
+\ass{lenMap\pex{\fnapply{calcLen}{\fnapply{genes}{a}}}}{\fnapply{lenMap}{\fnapply{calcLen}{\fnapply{genes}{a}}} \Union \set{a}}
+\Fi
+\end{setfor} ; \\
+\begin{setfor}{a}{ \Dom lenMap}
+\If  \Card \fnapply{lenMap}{a} \Neq \fnapply{max}{\setcomp{ \Card \fnapply{lenMap}{b}}{b \In  \Dom lenMap}}
+\Then \\
+\ass{excludedGenes}{excludedGenes \Union \fnapply{lenMap}{a}}
+\Fi
+\end{setfor} ; \\
+\ass{genes}{excludedGenes \Dby genes}
+\end{blockstmt};
+\end{op}
+\kw{\kw{public}}\begin{op}[e]{notify}%
+\signature{() \Oto string}
+\parms{}
+\annlab[o]{Sequences`notify}
+\begin{blockstmt}
+\begin{dclstmt}
+\assdef{gString}{string}[{\Dquote  \Dquote }]
+\end{dclstmt}
+\begin{setfor}{a}{excludedGenes}
+\ass{gString}{gString \Sconc a \Sconc \Dquote ,\hspace{0.5em} \Dquote }
+\end{setfor} ; \\
+\return{\Dquote Excluded\hspace{0.5em}genes\hspace{0.5em}are:\hspace{0.5em} \Dquote  \Sconc gString}
+\end{blockstmt};
+\end{op}
+\kw{\kw{public}}\begin{op}[e]{getSequence}%
+\signature{() \Oto \mapof{typeName\Gmap gene}}
+\parms{}
+\annlab[o]{Sequences`getSequence}
+\return{genes}
+\end{op}
+\kFunctions
+\kw{\kw{private}}\begin{fn}[e]{calcLen}%
+\signature{string \Pto \Nat }
+\parms*{\Lp gene\Rp }
+\annlab[o]{Sequences`calcLen}
+ \Len gene;
+\end{fn}
+\kw{\kw{private}}\begin{fn}[e]{max}%
+\signature{\setof{\Nat } \Pto \Nat }
+\parms*{\Lp nums\Rp }
+\annlab[o]{Sequences`max}
+\Letbe\hspace{0.5em}c \In nums \Best \\
+\hspace{0.5em}\all{c' \In nums \Setdiff \set{c}} \\
+{c \Ge c'} \Lin \\
+c
+\end{fn}
+\kEnd $Sequences$
+
